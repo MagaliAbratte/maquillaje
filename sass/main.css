@@ -5,13 +5,14 @@
   background-color: white;
 }
 .navbar .container-fluid .navbar-brand img {
-  width: 80px;
+  width: 250px;
   height: auto;
   border-radius: 50%;
 }
 
 .nav-item a {
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.2rem;
 }
 
 .logo {
@@ -20,7 +21,7 @@
 }
 
 .flex-presentacion {
-  background-color: #A89B9C;
+  background-color: white;
   padding: 50px;
   display: flex;
   flex-direction: row;
@@ -28,17 +29,43 @@
   align-items: center;
 }
 .flex-presentacion .flex-uno img {
-  width: 450px;
+  width: 300px;
   height: auto;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+  margin-top: -300px;
+  margin-left: 100px;
 }
 .flex-presentacion .flex-dos h1 {
-  font-size: 2rem;
-  font-family: "Julius Sans One", sans-serif;
+  font-size: 5rem;
+  font-family: "Noto Serif Display", serif;
   text-align: center;
-  padding: 20px;
 }
-.flex-presentacion .flex-dos p {
-  font-size: 1.5rem;
-  font-family: "Julius Sans One", sans-serif;
-  text-align: center;
+
+.carousel-item {
+  width: 500px;
+}
+
+.col-sm-6 {
+  background-color: #E8E5D8;
+}
+.col-sm-6 .encabezado {
+  font-family: "Noto Serif Display", serif;
+  align-items: center;
+  font-size: 4rem;
+  margin-top: 120px;
+}
+.col-sm-6 .marcas {
+  font-family: "Noto Serif Display", serif;
+  font-size: 2rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  font-family: "Noto Serif Display", serif;
+  padding: 50px;
 }/*# sourceMappingURL=main.css.map */
